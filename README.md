@@ -1,0 +1,3 @@
+# Implicit Type Conversion Issues in SQL
+
+This repository demonstrates a common SQL error involving implicit type conversions, which can lead to unexpected query results.  The `bug.sql` file shows a query prone to this issue, while `bugSolution.sql` provides a corrected version using explicit type casting. The problem arises when comparing or joining data of differing data types without proper conversion.
